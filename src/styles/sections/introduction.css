@@ -1,0 +1,60 @@
+.introduction .introduction-card {
+  margin-top: -84px;
+  position: relative;
+}
+.introduction .introduction-background {
+  height: 168px;
+  border-radius: 10px;
+}
+.introduction .introduction-info {
+  position: absolute;
+  text-align: center;
+  color: var(--text-white-color);
+  width: 226px;
+}
+.introduction .introduction-info .introduction-title {
+  font-size: 21px;
+  font-weight: var(--title-font-weight);
+  line-height: 25.2px;
+}
+.introduction .introduction-info p {
+  font-size: 10px;
+  line-height: 14.9px;
+}
+.introduction .introduction-info .btn-more {
+  margin: 16px auto auto;
+  font-size: 12px;
+  line-height: 15.6px;
+}
+/* Tablet */
+@media (min-width: 768px) {
+  .introduction .introduction-card {
+    margin-top: -140px;
+  }
+  .introduction .introduction-background {
+    height: 280px;
+  }
+
+  .introduction .introduction-info {
+    width: 100%;
+  }
+
+  .introduction .introduction-info .introduction-title {
+    font-size: 46px;
+    line-height: var(--2lg-line-heigh);
+  }
+
+  .introduction .introduction-info p {
+    font-size: var(--base-font-size);
+    line-height: var(--md-line-height);
+  }
+
+  .introduction .introduction-info .btn-more {
+    font-size: var(--xs-font-size);
+    line-height: var(--3sm-line-height);
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+}

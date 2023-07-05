@@ -1,0 +1,59 @@
+.banner {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 20%,
+      #021e49 73.96%
+    ),
+    url(../../assets/images/banner.png) lightgray 66% / cover no-repeat;
+  background-blend-mode: multiply, normal;
+  display: flex;
+  height: 507px;
+  align-items: center;
+}
+
+.banner .banner-title {
+  color: #fff;
+  font-size: var(--md-font-size);
+  font-weight: var(--title-font-weight);
+  line-height: 120%;
+  letter-spacing: 1.12px;
+  text-align: center;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .banner {
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(2, 30, 73, 0.5) 72.92%
+      ),
+      url(../../assets/images/banner.png) lightgray 50% / cover no-repeat;
+    background-blend-mode: multiply, normal;
+    height: 810px;
+  }
+
+  .banner .banner-title {
+    font-size: 56px;
+    letter-spacing: 1.12px;
+    width: 475px;
+    text-align: unset;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .banner {
+    background: linear-gradient(
+        180deg,
+        rgba(2, 6, 11, 0.7) 0%,
+        rgba(2, 6, 11, 0) 100%
+      ),
+      url(../../assets/images/banner.png) lightgray -7px 1.995px / 100.903% 99.753%
+        no-repeat;
+  }
+
+  .banner .banner-title {
+    width: 579px;
+  }
+}

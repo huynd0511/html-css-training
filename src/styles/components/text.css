@@ -1,0 +1,50 @@
+.text-default {
+  font-family: var(--default-font);
+  color: var(--text-dark-grey-color);
+  font-weight: 400;
+  line-height: var(--3sm-line-height);
+}
+
+.text-bold {
+  font-family: var(--bold-font);
+  font-weight: 700;
+  color: var(--text-bold-color);
+}
+
+.text-sub-heading-bold {
+  font-family: var(--bold-font);
+  font-size: var(--base-font-size);
+  color: var(--text-dark-grey-color);
+  line-height: var(--base-line-height);
+}
+
+.text-description {
+  font-size: var(--text-description-font-size);
+}
+
+.text-sub-heading-bold::first-letter,
+.text-description::first-letter {
+  text-transform: capitalize;
+}
+
+.text-description-medium {
+  font-family: var(--standard-font);
+  color: var(--text-default-color);
+  font-weight: 400;
+  line-height: var(--md-line-height);
+}
+
+.text-description-base {
+  font-family: var(--standard-font);
+  font-size: var(--base-font-size);
+  font-weight: 600;
+  line-height: var(--md-line-height);
+}
+
+.text-description-name {
+  font-family: var(--standard-font);
+  font-size: var(--2sm-font-size);
+  font-weight: 600;
+  line-height: var(--2sm-line-height);
+  color: var(--text-bold-color);
+}

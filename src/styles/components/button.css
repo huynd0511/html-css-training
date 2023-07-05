@@ -1,0 +1,26 @@
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.btn-main {
+  background-color: var(--secondary-color);
+  color: var(--text-white-color);
+  border-radius: var(--base-radius);
+  font-weight: 600;
+}
+
+.btn-main:hover {
+  opacity: 0.8;
+  transition: opacity 0.5s linear;
+}
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  cursor: pointer;
+}

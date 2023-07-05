@@ -1,0 +1,23 @@
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .container {
+    padding-left: 65px;
+    padding-right: 65px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1440px;
+    padding-left: 88px;
+    padding-right: 88px;
+  }
+}

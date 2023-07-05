@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CentralMusic</title>
+  <link rel="stylesheet" href="./styles/main.css" />
+</head>
+
+<body>
+  <header class="main-header">
+    <div class="container flex-between">
+      <div class="header-bar">
+
+        <!-- Logo -->
+        <a class="logo" href="#">
+          <img src="./assets/images/logo.png" srcset="
+              ./assets/images/logo-small.png 480w,
+              ./assets/images/logo.png       800w
+            " sizes="(max-width: 600px) 480px,
+        800px" alt="logo" class="logo-img" />
+        </a>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+          <ul class="navbar-list flex-center">
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Guitars</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Accessories</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Storage</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Lessons</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#" class="navbar-link">Repairs</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Menu bar -->
+      <div class="menu-bar"></div>
+
+      <!-- Button -->
+      <div class="header-actions">
+        <button class="btn-icon">
+          <img src="./assets/images/icons/cart.svg" alt="cart" />
+        </button>
+        <button class="btn-icon">
+          <img src="./assets/images/icons/profile.svg" alt="profile" />
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- main content -->
+  <main class="content">
+    <!-- Banner -->
+    <section class="banner">
+      <div class="container">
+        <h1 class="banner-title">Fullfilling dreams with strings attached</h1>
+      </div>
+    </section>
+
+    <!-- introduction -->
+    <section class="introduction">
+      <div class="container">
+        <div class="introduction-card flex-center">
+          <img src="./assets/images/intro-mobile.png" srcset="
+                ./assets/images/intro-mobile.png   328w,
+                ./assets/images/intro-tablet.png   894w,
+                ./assets/images/intro-desktop.png 1264w
+              " sizes="(max-width: 600px) 328px,
+                (max-width: 1024px) 894px,
+                1264px" alt="introduction" width="100%" class="introduction-background" />
+          <div class="introduction-info">
+            <h2 class="introduction-title">FREE GUITAR LESSONS!</h2>
+            <p class="text-description-base">
+              Purchase any guitar over $499.99 and recieve<br />
+              a one-hour guitar lesson free.
+            </p>
+            <button class="btn btn-main btn-more">LEARN MORE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- New products -->
+    <section class="section-layout product-card new-product">
+      <div class="container">
+        <header class="product-header">
+          <hgroup class="product-heading">
+            <hr class="strikethrough" />
+            <h3 class="text-sub-heading-bold product-sub-heading">
+              New Products
+            </h3>
+          </hgroup>
+        </header>
+        <ul class="product-list">
+
+          <!-- Item 1 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/new-product-1.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 2 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/new-product-2.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 3 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/new-product-3.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 4 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/new-product-4.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Popular finds -->
+    <section class="section-layout product-card popular">
+      <div class="container">
+        <header class="product-header">
+          <hgroup class="product-heading">
+            <hr class="strikethrough" />
+            <h3 class="text-sub-heading-bold product-sub-heading">
+              Popular Finds
+            </h3>
+          </hgroup>
+        </header>
+        <ul class="product-list">
+
+          <!-- Item 1 -->
+          <li class="product-item popular-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/popular-1.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 2 -->
+          <li class="product-item popular-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/popular-2.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 3 -->
+          <li class="product-item popular-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/popular-3.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+
+          <!-- Item 4 -->
+          <li class="product-item popular-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/popular-4.png" alt="product" />
+            </figure>
+            <div class="product-info">
+              <div class="product-details">
+                <hgroup class="product-name-price flex-between">
+                  <h4 class="text-description-name product-name">
+                    Brand Name
+                  </h4>
+                  <span class="text-description-name product-price">
+                    $2,995
+                  </span>
+                </hgroup>
+                <p class="text-description-medium product-description">
+                  Product description here
+                </p>
+              </div>
+              <div class="product-color">
+                <span class="text-default product-color-number"> 0 </span>
+                <span class="text-default"> colors available </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Gear Heads -->
+    <section class="section-layout product-card gear">
+      <div class="container">
+        <header class="product-header">
+          <hgroup class="product-heading">
+            <hr class="strikethrough">
+            <h3 class="text-sub-heading-bold product-sub-heading">
+              Gear Heads
+            </h3>
+          </hgroup>
+        </header>
+        <ul class="gear-list">
+          <!-- Item 1 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/gear-1.png" alt="product" />
+            </figure>
+            <div class="gear-info gear-info-grey">
+              <hgroup class="gear-details">
+                <h3 class="text-sub-heading-bold gear-title">
+                  Article Title
+                </h3>
+                <h4 class="text-description-name gear-subhead">
+                  Article Subhead
+                </h4>
+              </hgroup>
+            </div>
+          </li>
+
+          <!-- Item 2 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/gear-2.png" alt="product" />
+            </figure>
+            <div class="gear-info gear-info-dark">
+              <hgroup class="gear-details">
+                <h3 class="text-sub-heading-bold gear-title">
+                  Article Title
+                </h3>
+                <h4 class="text-description-name gear-subhead">
+                  Article Subhead
+                </h4>
+              </hgroup>
+            </div>
+          </li>
+
+          <!-- Item 3 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/gear-3.png" alt="product" />
+            </figure>
+            <div class="gear-info gear-info-grey">
+              <hgroup class="gear-details">
+                <h3 class="text-sub-heading-bold gear-title">
+                  Article Title
+                </h3>
+                <h4 class="text-description-name gear-subhead">
+                  Article Subhead
+                </h4>
+              </hgroup>
+            </div>
+          </li>
+
+          <!-- Item 4 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/gear-4.png" alt="product" />
+            </figure>
+            <div class="gear-info gear-info-dark">
+              <hgroup class="gear-details">
+                <h3 class="text-sub-heading-bold gear-title">
+                  Article Title
+                </h3>
+                <h4 class="text-description-name gear-subhead">
+                  Article Subhead
+                </h4>
+              </hgroup>
+            </div>
+          </li>
+
+          <!-- Item 5 -->
+          <li class="product-item">
+            <figure class="product-image-frame">
+              <img class="product-image" src="./assets/images/gear-5.png" alt="product" />
+            </figure>
+            <div class="gear-info gear-info-grey">
+              <hgroup class="gear-details">
+                <h3 class="text-sub-heading-bold gear-title">
+                  Article Title
+                </h3>
+                <h4 class="text-description-name gear-subhead">
+                  Article Subhead
+                </h4>
+              </hgroup>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+      <!-- Footer main-->
+      <section class="footer-main">
+        <div class="container">
+          <div class="footer-info">
+            <div class="footer-info-column flex-center">
+              <hr class="footer-info-strike" />
+              <h5 class="footer-info-header">
+                My Account
+              </h5>
+              <ul class="footer-info-list">
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Overview</a>
+                </li>
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Order History</a>
+                </li>
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Wishlist</a>
+                </li>
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Account information</a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-info-column flex-center">
+              <hr class="footer-info-strike" />
+              <h5 class="footer-info-header">
+                Store
+              </h5>
+              <ul class="footer-info-list">
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Security Notice</a>
+                </li>
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Location & Hours</a>
+                </li>
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Rentals</a>
+                </li>
+                <li class="footer-info-item">
+                  <a href="#" class="footer-info-link text-default">Privacy Notice</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-wrapper">
+            <div class="footer-logo">
+              <img src="./assets/images/logo.png" alt="logo" />
+            </div>
+            <ul class="footer-social-list flex-center">
+              <li class="footer-social-item">
+                <a href="#" class="footer-social-link btn-primary">
+                  <img src="./assets/images/icons/youtube.svg" class="footer-social-icon youtube" alt="youtube">
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="#" class="footer-social-link btn-primary">
+                  <img src="./assets/images/icons/twitter.svg" class="footer-social-icon twitter" alt="twitter">
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="#" class="footer-social-link btn-primary">
+                  <img src="./assets/images/icons/instagram.svg" class="footer-social-icon instagram" alt="instagram">
+                </a>
+              </li>
+              <li class="footer-social-item">
+                <a href="#" class="footer-social-link btn-primary">
+                  <img src="./assets/images/icons/facebook.svg" class="footer-social-icon facebook" alt="facebook">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- Footer copyright-->
+      <section class="footer-copyright flex-center">
+        <div class="container">
+          <p class="text-default copyright-content">©2021 Music Store</p>
+        </div>
+      </section>
+    </footer>
+  </main>
+</body>
+
+</html>

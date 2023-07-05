@@ -1,0 +1,36 @@
+/* typography rules */
+
+body,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  font-family: var(--standard-font);
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  object-fit: cover;
+}
+
+.strikethrough {
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary-color);
+}

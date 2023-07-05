@@ -1,0 +1,15 @@
+@font-face {
+  font-family: WorkSansBold;
+  src: url("../../assets/fonts/WorkSans/WorkSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: WorkSansMedium;
+  src: url("../../assets/fonts/WorkSans/WorkSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url("../../assets/fonts/Montserrat/Montserrat-Regular.ttf")
+    format("truetype");
+}

@@ -1,0 +1,60 @@
+:root {
+  /* color */
+  --primary-color: #ab0433;
+  --secondary-color: #ff753a;
+  --white-color: #fff;
+  --light-color: #eaeaea;
+  --dark-color: #252525;
+  --dark-grey-color: #505050;
+  --background-grey-color: #ececec;
+
+  /* text  */
+  --text-white-color: #fff;
+  --text-default-color: #767676;
+  --text-bold-color: #252525;
+  --text-dark-grey-color: #505050;
+  --border-light-color: #eaeaea;
+
+  /* font family */
+  --standard-font: WorkSansMedium;
+  --bold-font: WorkSansBold;
+  --default-font: Montserrat;
+
+  /* font size */
+  --xs-font-size: 14px;
+  --3sm-font-size: 16px;
+  --2sm-font-size: 18px;
+  --sm-font-size: 23px;
+  --base-font-size: 24px;
+  --md-font-size: 32px;
+  --lg-font-size: 40px;
+
+  /* font weight */
+  --text-font-weight: 400;
+  --default-font-weight: 500;
+  --title-font-weight: 700;
+
+  /* line height */
+  --xs-line-height: 16.8px;
+  --3sm-line-height: 18px;
+  --2sm-line-height: 23.4px;
+  --base-line-height: 31.2px;
+  --md-line-height: 35.8px;
+  --lg-line-height: 42px;
+
+  /* border radius */
+  --xs-radius: 10px;
+  --sm-radius: 16px;
+  --base-radius: 32px;
+  --lg-radius: 100px;
+
+  /* box shadow */
+  --base-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+  --extra-shadow: 0px 12px 32px 0px rgba(0, 0, 0, 0.05),
+    0px 2px 4px 0px rgba(28, 5, 77, 0.1);
+
+  /* icon width */
+  --xs-icon-width: 16px;
+  --sm-icon-width: 24px;
+}
