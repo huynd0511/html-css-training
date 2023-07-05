@@ -1,8 +1,8 @@
 /* Base */
-@import url("../styles/base/reset.css");
-@import url("../styles/base/typography.css");
-@import url("../styles/base/variables.css");
-@import url("../styles/base/global.css");
+@import url("../styles/bases/reset.css");
+@import url("../styles/bases/typography.css");
+@import url("../styles/bases/variables.css");
+@import url("../styles/bases/global.css");
 
 /* Components */
 @import url("../components/container.css");
