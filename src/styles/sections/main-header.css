@@ -12,12 +12,17 @@
 
 .main-header .logo {
   margin-right: 24px;
+  color: var(--text-white-color);
+}
+
+.logo-img {
+  margin-right: 10px;
 }
 
 .main-header .menu-bar {
   width: 24px;
   height: 24px;
-  background: url("../../assets/images/icons/menu-bar.svg");
+  background: url("../../assets/icons/menu-bar.svg");
   cursor: pointer;
 }
 
@@ -41,7 +46,7 @@
   color: var(--text-white-color);
   font-size: var(--2sm-font-size);
   font-weight: 600;
-  line-height: var(--2sm-line-height);
+  line-height: var(--sm-line-height);
 }
 
 .main-header .navbar-link:hover,

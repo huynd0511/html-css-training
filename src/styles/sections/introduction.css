@@ -20,6 +20,7 @@
 .introduction .introduction-info p {
   font-size: 10px;
   line-height: 14.9px;
+  color: var(--text-white-color);
 }
 .introduction .introduction-info .btn-more {
   margin: 16px auto auto;

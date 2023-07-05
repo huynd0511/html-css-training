@@ -5,11 +5,7 @@
 }
 
 .product-card .product-heading {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
   margin-bottom: 34px;
-  align-items: center;
 }
 
 .product-card .product-list {

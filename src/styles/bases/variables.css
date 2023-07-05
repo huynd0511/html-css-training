@@ -35,12 +35,11 @@
   --title-font-weight: 700;
 
   /* line height */
-  --xs-line-height: 16.8px;
   --3sm-line-height: 18px;
-  --2sm-line-height: 23.4px;
+  --2sm-line-height: 20.8px;
+  --sm-line-height: 23.4px;
   --base-line-height: 31.2px;
   --md-line-height: 35.8px;
-  --lg-line-height: 42px;
 
   /* border radius */
   --xs-radius: 10px;
