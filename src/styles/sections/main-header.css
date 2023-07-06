@@ -12,11 +12,6 @@
 
 .main-header .logo {
   margin-right: 24px;
-  color: var(--text-white-color);
-}
-
-.logo-img {
-  margin-right: 10px;
 }
 
 .main-header .menu-bar {
@@ -52,7 +47,7 @@
 .main-header .navbar-link:hover,
 .main-header .navbar-link.active {
   color: var(--primary-color);
-  transition: color 0.5s linear;
+  transition: color 0.3s linear;
 }
 
 /* Desktop */

@@ -23,11 +23,13 @@
 .product-card .product-item .product-image-frame {
   border-top-left-radius: var(--xs-radius);
   border-top-right-radius: var(--xs-radius);
+  object-fit: cover;
+  overflow: hidden;
 }
 
 .product-card .product-item:hover .product-image {
   transform: scale(1.05);
-  transition: transform 0.5s linear;
+  transition: transform 0.3s linear;
 }
 
 .product-card .product-image {
