@@ -63,6 +63,10 @@
   color: var(--text-white-color);
 }
 
+.footer-social-icon {
+  width: 22px;
+  height: 16px;
+}
 /* Tablet  */
 @media (min-width: 768px) {
   .footer .footer-main {
