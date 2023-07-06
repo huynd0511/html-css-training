@@ -8,6 +8,11 @@
   background: var(--white-color);
 }
 
+.popular .product-image-frame {
+  height: 278px;
+}
+
+/* Tablet */
 @media (min-width: 768px) {
   .popular {
     padding-top: 88px;
