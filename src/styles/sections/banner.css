@@ -4,7 +4,7 @@
       rgba(255, 255, 255, 0) 20%,
       #021e49 73.96%
     ),
-    url(../../assets/images/banner-mobile.png) lightgray 50% / cover no-repeat;
+    url(../../assets/images/banner-mobile.webp) lightgray 50% / cover no-repeat;
   background-blend-mode: multiply, normal;
   display: flex;
   height: 507px;
@@ -28,7 +28,8 @@
         rgba(255, 255, 255, 0) 0%,
         rgba(2, 30, 73, 0.5) 72.92%
       ),
-      url(../../assets/images/banner-tablet.png) lightgray 50% / cover no-repeat;
+      url(../../assets/images/banner-tablet.webp) lightgray 50% / cover
+        no-repeat;
     background-blend-mode: multiply, normal;
     height: 810px;
   }
@@ -49,7 +50,7 @@
         rgba(2, 6, 11, 0.7) 0%,
         rgba(2, 6, 11, 0) 100%
       ),
-      url(../../assets/images/banner.png) lightgray -7px 1.995px / 100.903% 99.753%
+      url(../../assets/images/banner.webp) lightgray -7px 1.995px / 100.903% 99.753%
         no-repeat;
   }
 }
