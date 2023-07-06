@@ -12,6 +12,11 @@
   height: 278px;
 }
 
+.popular .product-image-frame .product-image {
+  height: 260px;
+  width: 314px;
+}
+
 /* Tablet */
 @media (min-width: 768px) {
   .popular {

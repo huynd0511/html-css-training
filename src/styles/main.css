@@ -5,16 +5,17 @@
 @import url("../styles/bases/global.css");
 
 /* Components */
-@import url("./layouts/container.css");
 @import url("./components/product-card.css");
 @import url("../styles/components/button.css");
 @import url("../styles/components/text.css");
 
+/* Layouts */
+@import url("../styles/layouts/header.css");
+@import url("../styles/layouts/footer.css");
+
 /* Sections */
-@import url("../styles/sections/main-header.css");
 @import url("../styles/sections/banner.css");
 @import url("../styles/sections/introduction.css");
 @import url("../styles/sections/new-product.css");
 @import url("../styles/sections/popular.css");
 @import url("../styles/sections/gear.css");
-@import url("../styles/sections/main-footer.css");
