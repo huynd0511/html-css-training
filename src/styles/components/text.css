@@ -18,11 +18,6 @@
   line-height: var(--base-line-height);
 }
 
-.text-sub-heading-bold::first-letter,
-.text-description::first-letter {
-  text-transform: capitalize;
-}
-
 .text-description-medium {
   font-family: var(--standard-font);
   color: var(--text-default-color);
